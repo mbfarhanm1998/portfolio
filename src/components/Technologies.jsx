@@ -19,7 +19,9 @@ const iconVariants = (duration) => ({
 });
 const Technologies = () => {
   return (
-    <div className="pb-24">
+    // pb-24 mt-16 lg:mt-24
+    
+    <div className="pb-4 lg:mb-36 pt-24 lg:pt-0">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
